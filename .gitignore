@@ -1,1 +1,17 @@
-./exe
+# Ignore executáveis e arquivos compilados
+*.exe
+*.out
+*.o
+
+# Ignore diretórios de compilação
+/build/
+/bin/
+/obj/
+
+# Ignore arquivos temporários
+*.tmp
+*.log
+*.swp
+
+# Ignore arquivos de backup
+*~
